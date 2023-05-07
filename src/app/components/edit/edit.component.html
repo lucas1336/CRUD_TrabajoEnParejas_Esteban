@@ -1,1 +1,49 @@
-<p>edit works!</p>
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Edit Offer</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form [formGroup]="offerForm" (submit)="onSubmit()">
+      <mat-form-field appearance="outline">
+        <mat-label>Title</mat-label>
+        <input formControlName="title" matInput placeholder="Input" required />
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Description</mat-label>
+        <input
+          formControlName="description"
+          matInput
+          placeholder="Input"
+          required
+        />
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Points</mat-label>
+        <input
+          formControlName="points"
+          matInput
+          placeholder="Input"
+          required
+          [max]="100"
+        />
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Business Id</mat-label>
+        <input
+          formControlName="businessid"
+          matInput
+          placeholder="Input"
+          required
+        />
+        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+      </mat-form-field>
+      <div class="button-group">
+        <button mat-button color="primary">Update</button>&nbsp;
+        <button mat-button color="warn" (click)="cancelEdit()">Cancel</button>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>

@@ -4,21 +4,21 @@
       "title": "Tesla",
       "description": "tech",
       "points": 100,
-      "businessld": 100,
+      "businessid": 100,
       "id": 2
     },
     {
       "title": "Aura",
       "description": "muebles",
       "points": "98",
-      "businessld": 44,
+      "businessid": 44,
       "id": 3
     },
     {
       "title": "Gan",
       "description": "toys",
       "points": "55",
-      "businessld": "3",
+      "businessid": "3",
       "id": 4
     },
     {
@@ -27,13 +27,6 @@
       "description": "Oferta de hamburguesas",
       "points": "99",
       "businessid": "89"
-    },
-    {
-      "id": 7,
-      "title": "",
-      "description": "",
-      "points": "",
-      "businessid": ""
     },
     {
       "id": 8,
@@ -48,6 +41,13 @@
       "description": "regalo de leche",
       "points": "99",
       "businessid": "10"
+    },
+    {
+      "id": 10,
+      "title": "Fox",
+      "description": "regalo bicis",
+      "points": "99",
+      "businessid": "77"
     }
   ]
 }

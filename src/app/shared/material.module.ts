@@ -11,6 +11,8 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatDialogModule } from '@angular/material/dialog';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [],
@@ -28,6 +30,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatGridListModule,
     MatCardModule,
     MatToolbarModule,
+    MatDialogModule,
+    ReactiveFormsModule,
   ],
   exports: [
     MatButtonModule,
@@ -43,6 +47,8 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatGridListModule,
     MatCardModule,
     MatToolbarModule,
+    MatDialogModule,
+    ReactiveFormsModule,
   ],
 })
 export class MaterialModule {}
