@@ -8,6 +8,11 @@ import { HomeComponent } from './components/home/home.component';
 import { TableComponent } from './components/table/table.component';
 import { NewComponent } from './components/new/new.component';
 import { EditComponent } from './components/edit/edit.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MaterialModule } from './shared/material.module';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,13 +21,17 @@ import { EditComponent } from './components/edit/edit.component';
     HomeComponent,
     TableComponent,
     NewComponent,
-    EditComponent
+    EditComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    HttpClientModule,
+    FormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

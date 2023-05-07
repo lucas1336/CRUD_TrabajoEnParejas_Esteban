@@ -1,0 +1,53 @@
+{
+  "offers": [
+    {
+      "title": "Tesla",
+      "description": "tech",
+      "points": 100,
+      "businessld": 100,
+      "id": 2
+    },
+    {
+      "title": "Aura",
+      "description": "muebles",
+      "points": "98",
+      "businessld": 44,
+      "id": 3
+    },
+    {
+      "title": "Gan",
+      "description": "toys",
+      "points": "55",
+      "businessld": "3",
+      "id": 4
+    },
+    {
+      "id": 6,
+      "title": "McDonalds",
+      "description": "Oferta de hamburguesas",
+      "points": "99",
+      "businessid": "89"
+    },
+    {
+      "id": 7,
+      "title": "",
+      "description": "",
+      "points": "",
+      "businessid": ""
+    },
+    {
+      "id": 8,
+      "title": "asd",
+      "description": "asd",
+      "points": "200",
+      "businessid": "asd"
+    },
+    {
+      "id": 9,
+      "title": "Plaza Vea",
+      "description": "regalo de leche",
+      "points": "99",
+      "businessid": "10"
+    }
+  ]
+}
